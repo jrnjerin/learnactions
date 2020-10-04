@@ -21,6 +21,7 @@ function App() {
 
   return (
     <div className="app">
+      <h1>Simple TODO</h1>
       <input type="text" value={input} onChange={(e) => setInput(e.target.value)} />
       <button onClick={handleClick}>add</button>
       <ul>
